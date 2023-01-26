@@ -8,11 +8,11 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
-
+1. import numpy as np 
+2. Initialize the matrix with the given coefficients and constants.
+3. For each pivot element, calculate the multipliers for each row below the pivot and subtract the corresponding rows from the current row.
+4. Repeat the process for each pivot element in the matrix.
+5. If the solution is not correct, repeat the process.
 ## Program:
 ```
 /*
